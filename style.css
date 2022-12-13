@@ -1,0 +1,239 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    border-radius: 5px;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    }
+
+.nav-item{
+    color: aliceblue;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-image: url(./imagenes/fondo-con-definicion.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.menu{
+    position: fixed;
+}
+
+.logo{
+    width: 130px;
+    margin-top: 25px;
+    margin-left: -10px;
+    position: fixed;
+}
+
+.ainicio{
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+
+}
+
+.titular{
+    text-align: center;
+    margin-top: 40vh;
+    color: rgb(25, 167, 6);
+    margin-top: auto;
+
+}
+
+h1{
+    font-size: 80px;
+    font-style: normal;
+    width: 75%;
+   margin: auto;
+    margin-top: -20px;
+    font-family: 'Frijole';
+}
+
+#tarjetas{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-tarjetas{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.tarjeta{
+    text-align: center;
+    box-shadow: -1px 0px 5px #0000001f;
+    width: 30%;
+    margin-top: -100px;
+    padding: 40px 0;
+    border-radius: 5px;
+   
+}
+
+#segunda-tarjeta{
+    margin: 0 20px;
+    margin-top: -100px;
+}
+
+img{
+    width: 330px;
+    border-radius: 5px;
+}
+
+.tarjeta a{
+    color: #000;
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+.div-footer{
+    border: 1px solid rgb(88, 125, 146);
+    background-color: rgb(88, 125, 146);
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.body1{
+    background-image: url(./imagenes/fondo-con-definicion.png);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.quienessomos{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: end;
+    margin: auto;
+}
+
+.menuqs{
+    display: flex;
+    width: 130px;
+    margin-top: 25px;
+    margin-left: -10px;
+    position: fixed;
+    margin-top: -300px;
+    margin-left: -1100px;
+}
+
+formulario{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 200px;
+}
+
+menuinf{
+    display: flex;
+    width: 130px;
+}
+
+.sponsors{
+    background-image: url(./imagenes/fondo-con-definicion.png);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+
+.menusponsors{
+    margin-top:-500px;
+}
+
+.bodytorneo{
+    background-image: url(./imagenes/fondo-con-definicion.png);
+    display: flex;
+    justify-content: space-around;
+}
+
+.contorneo{
+    margin-left: 55px;
+    margin-top: 80px;
+}
+
+.torneos{
+    margin-left: 120px;
+    margin-top: 20s0px;
+}
+
+.bodygastronomia{
+    background-image: url(./imagenes/fondo-con-definicion.png);
+    display: flex;
+}
+
+.contenedorgas{
+    margin-left: 85px;
+    margin-top: 50px;
+}
+
+.gastronomia2{
+    margin-top: 150px;
+    margin-left: 80px;
+}
+    
+.canchas{
+    margin-top: -240px;
+}
+
+    .btn-wsp{
+        position:fixed;
+        width:60px;
+        height:60px;
+        line-height: 63px;
+        bottom:25px;
+        right:25px;
+        background:#25d366;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        font-size:35px;
+        box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+        z-index:100;
+        transition: all 300ms ease;
+    }
+    .btn-wsp:hover{
+        background: #20ba5a;
+    }
+    @media only screen and (min-width:320px) and (max-width:768px){
+        .btn-wsp{
+            width:63px;
+            height:63px;
+            line-height: 66px;
+        }
+    }
+
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informacion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body1">
+
+  <div class="menuinf">
+    <a href="index.html">
+        <img class="logo" src="./imagenes/logo.png" alt="">
+    </a>
+    <a class="ainicio" href="index.html">Volver a inicio
+    </a>
+  </div>
+  
+
+<div class="formulario">
+  <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+    <div class="row">
+      <label class="required" for="name">Nombre:</label><br />
+      <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+      <span id="name_validation" class="error_message"></span>
+    </div>
+    <div class="row">
+      <label class="required" for="email">E-mail:</label><br />
+      <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+      <span id="email_validation" class="error_message"></span>
+    </div>
+    <div class="row">
+      <label class="required" for="message">Mensaje:</label><br />
+      <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+      <span id="message_validation" class="error_message"></span>
+    </div>
+        
+      <input id="submit_button" type="submit" value="Enviar mensaje" />
+  </form>
+</div>
+
+
+<h3 class="hinfo">
+  Abierto de lunes a sabados de 08.00 am a 23:00 pm <br>
+  Contacto 336-380465
+</h3>
+
+</body>
+</html>
